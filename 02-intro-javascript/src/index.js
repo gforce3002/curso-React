@@ -1,5 +1,19 @@
-//import { heroes } from './Data/heroes'
+/**
+ * Condionales ternarios
+ */
 
+const activo = true
 
+let mensaje = "";
 
-console.table(heroes)
+if(activo){
+    mensaje = "Activo"
+}else{
+    mensaje = "Inactivo"
+}
+
+console.log(mensaje);
+
+const mensajes = activo? "Activo":"Inactivo";
+
+console.log(mensajes)
