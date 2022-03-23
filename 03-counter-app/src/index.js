@@ -10,5 +10,5 @@ import './index.css'
 
 
 const divroot = document.querySelector("#root")
-ReactDOM.render(<CounterApp value={200}/>, divroot)
+ReactDOM.render(<CounterApp value={0}/>, divroot)
 
